@@ -9,6 +9,7 @@ var Stack = function() {
 	obj.pop = stackMethods.pop;
     
     return obj;
+    //could also have used Object.create(stackMethods) instead of setting each method on obj
 };
 
 
